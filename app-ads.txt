@@ -9,7 +9,7 @@ appodeal.com, 227350, DIRECT
 bidmachine.io, 227350, DIRECT
 
 #Meta-Audience
-#Temporarily disabled
+facebook.com, 814429076986447, DIRECT, c3e20eee3f780d68
 
 
 #Resellers
