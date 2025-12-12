@@ -1,16 +1,16 @@
 :root {
-    --primary: #258EEB;
-    --primary-dark: #1F79C8;
-    --secondary: #FFAE4A;
-    --background: #F8FAFC;
-    --text: #000000E6;
+    --primary: #258eeb;
+    --primary-dark: #1f79c8;
+    --secondary: #ffae4a;
+    --background: #f8fafc;
+    --text: #000000e6;
     --text-light: #00000099;
-    --white: #FFFFFF;
-    --light-gray: #EDF2F7;
+    --white: #ffffff;
+    --light-gray: #edf2f7;
 }
 
 body {
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
     color: var(--text);
     background-color: var(--white);
     overflow-x: hidden;
@@ -18,7 +18,7 @@ body {
 
 /* Thai text styling */
 .thai-text {
-    font-family: 'Kanit', sans-serif;
+    font-family: "Kanit", sans-serif;
 }
 
 /* Typography */
@@ -44,7 +44,7 @@ h1 {
 }
 
 .highlight::after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: -1px;
     left: 0;
@@ -127,7 +127,11 @@ h1 {
 /* Promo Banner */
 .promo-banner {
     display: none;
-    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    background: linear-gradient(
+        135deg,
+        var(--primary) 0%,
+        var(--secondary) 100%
+    );
     color: white;
     padding: 1rem 0;
     position: relative;
@@ -169,7 +173,7 @@ h1 {
 .countdown {
     display: flex;
     gap: 0.75rem;
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 
 .countdown-item {
@@ -218,7 +222,11 @@ h1 {
     padding: 6rem 0;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(135deg, rgba(9, 114, 184, 0.1) 40%, rgba(31, 121, 200, 0.1) 100%);
+    background: linear-gradient(
+        135deg,
+        rgba(9, 114, 184, 0.1) 40%,
+        rgba(31, 121, 200, 0.1) 100%
+    );
 }
 
 .hero-title {
@@ -555,7 +563,11 @@ h1 {
 /* Final CTA */
 .final-cta {
     padding: 5rem 0;
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    background: linear-gradient(
+        135deg,
+        var(--primary) 0%,
+        var(--primary-dark) 100%
+    );
     color: white;
     text-align: center;
 }
@@ -605,7 +617,7 @@ h1 {
 
 .download-badge-disabled {
     filter: grayscale(100%);
-    opacity: .5;
+    opacity: 0.5;
 }
 
 /* Footer */
@@ -750,7 +762,6 @@ h1 {
 
 /* Responsive adjustments */
 @media (max-width: 1200px) {
-
     .visual-circle,
     .visual-wave,
     .visual-blob {
@@ -764,7 +775,6 @@ h1 {
 }
 
 @media (max-width: 992px) {
-
     h1 {
         font-size: 2.2rem !important;
     }
@@ -960,12 +970,12 @@ h1 {
     .faq-section {
         padding: 3rem 0;
     }
-    
+
     .accordion-button {
         padding: 1rem;
         font-size: 1rem;
     }
-    
+
     .accordion-body {
         padding: 1rem;
     }
