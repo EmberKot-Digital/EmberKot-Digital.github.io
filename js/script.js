@@ -1,6 +1,6 @@
 const offerStartDate = new Date("Dec 20, 2025 00:00:00");
 const offerEndDate = new Date("Jan 03, 2026 00:00:00");
-const offerAmount = 4;
+const offerAmount = 3.99;
 
 const timeToPromoStart = function () {
   const startDate = offerStartDate.getTime();
@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const promoDescription = document.querySelector(".promo-text");
 
     if (promoDescription) {
-      promoDescription.innerHTML = `🎉🎄🎉 Christmas & New Year 2026 Offer: <strong>Pro Version <span class="original-price">$5</span> $${offerAmount}</strong> - Ends in:`;
+      promoDescription.innerHTML = `🎉🎄🎉 Christmas & New Year 2026 Offer: <strong>Pro Version <span class="original-price">$4.99</span> $${offerAmount}</strong> - Ends in:`;
     }
 
     promoInterval = setInterval(updatePromoCountdown, 1000);
